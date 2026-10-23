@@ -35,7 +35,7 @@ for column in numeric_columns:
 	print(data[column].describe().to_string())
 	print("10 nilai terkecil:")
 	print(sorted_values.head(10).to_list())
-
+##mkmpmmmp
 print("\n=== Data terurut ===")
 sorted_categorical_data = data.sort_values(by=categorical_columns, na_position="last")
 sorted_numeric_data = data.sort_values(by=numeric_columns, na_position="last")
